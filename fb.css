@@ -1,0 +1,187 @@
+@font-face
+{
+	font-family: Cocogoose;
+	src : url(../fonts/Cocogoose.ttf);
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Cocogoose;
+	background: linear-gradient(to bottom,#fff 10%,#e8eaf6 100%);
+	background-attachment : fixed;
+}
+
+.align-right
+{
+	float: right;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+header
+{
+	height: 100px;
+	background-color: #395899 ;
+	
+}
+
+header img
+{
+	margin: 7px 125px;
+	width: 200px;
+}
+
+.right 
+{
+	height: 100px;
+	width: 45%;
+	float: right;
+	position: relative;
+}
+
+.right .top
+{
+	height: 65px;
+	position: relative;
+	color: white;
+}
+
+.right .top .email
+{
+	position: absolute;
+	bottom:0;
+}
+
+.right .top .password
+{
+	position: absolute;
+	margin-left: 175px;
+	bottom:0;
+}
+
+.right .top .email input  
+{
+	height: 20px;
+	width: 150px;
+}
+
+.right .top .password input  
+{
+	height: 20px;
+	width: 150px;
+}
+
+.right .top .Login
+{
+	position: absolute;
+	margin-left: 350px;
+	bottom:0;
+}
+
+.right .top .Login input
+{
+	height: 25px;
+	width: 55px;
+	background-color: #5c8dbe;
+	color: white;
+	border: solid 1px black;
+}
+
+.right .bottom
+{
+	left: 175px;
+	height: 30px;
+	position: absolute;
+	bottom: 10px;
+	font-size: 0.8em;
+}
+
+.right .bottom a
+{
+	color: silver;
+}
+
+section .image
+{
+	width: 55%;
+	float: left;
+}
+
+section .image p
+{
+	width: 500px;
+	display: block;
+	text-align: center;
+	margin: 50px auto;
+	font-size: 30px;
+}
+
+section .image img
+{
+	display: block;
+	margin: 0px auto;
+}
+	
+section .form
+{
+	width: 45%;
+	float: left;
+}
+
+section .form form
+{
+	width: 405px;
+}
+
+section .form form h1
+{
+	font-size: 54px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+section .form form input
+{
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: solid 1px;
+}
+
+section .form form input[type=text]
+{
+	width: 185px;
+}
+
+section .form form input[type=email] , input[type=password]
+{
+	padding: 0px;
+	width: 100%;
+}
+
+section .form form select
+{
+	width: 61px;
+	height: 30px;
+}
+
+section .form form input[type=radio]
+{
+	margin-top: -3px;
+	vertical-align: middle;
+	width: 9px;
+}
+
+section .form form input[type=submit]
+{	
+	height: 33px;
+	width: 185px;
+	background-color: #436a34;
+	color: white;
+	border-color: black;
+}
